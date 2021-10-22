@@ -12,6 +12,10 @@
 
 require('dotenv').config();
 
+console.log(process.env.SERVER_NAME) 
+console.log(process.env.SERVER_CPU) 
+console.log(process.env.SERVER_URL) 
+console.log(process.env.SERVER_LOG) 
 
 const {SERVER_NAME, SERVER_CPU, SERVER_URL, SERVER_LOG} = process.env
 
